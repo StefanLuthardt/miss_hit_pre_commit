@@ -4,4 +4,4 @@
   stages: [pre-commit]
   files: \.m$
   language: python
-  entry: mh_style --fix
+  entry: env PYTHONIOENCODING="utf_8"  mh_style --fix
