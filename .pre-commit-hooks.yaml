@@ -1,7 +1,7 @@
 - id: mh_style
   name: MISS_HIT Style
   description: format all matlab files with MISS_HIT Style (https://misshit.org/tools.html)
-  stages: [pre-commit]
+  stages: [commit]
   files: \.m$
   language: python
   entry: env PYTHONIOENCODING="utf_8"  mh_style --fix
